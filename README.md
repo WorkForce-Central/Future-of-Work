@@ -1,6 +1,6 @@
-# PUMS Analysis was a multistep Pierce
+# PUMS Analysis, Data Prep, and Data Extracts used in the 2019 Pierce County's Future of Work Report
 
-
-Mixer - 2Digit Demographic and Education is the ETL (Tableau Prep)  
-
-Employment Data (6-digit SOC occupation stats from BLS), Frey and Osborne Computerization Probability by SOC, and PUMS EmpBySex.xlsx
+Public Use Microdata Samples for WA (Population 2017-1-yr) were pulled from the census, preped via Tableau Prep, and replicated in R using the survey package.
+Employment, wages, industry, and GDP estimates were pulled from the Bureau of Labor Statistics via Chmura's JobsEQ.
+Postsecondary Awards data was pulled from the Naitonal Center for Education Statistics via Chmura's JobsEQ
+Frey and Osborne probability estimates were pulled from their 2017 publication "The future of employment".
